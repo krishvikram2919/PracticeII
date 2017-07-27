@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Perforce\Monsters1807\client\unity\Assets\Scripts\Oled\ThemeState.cs">
+    <Files>
+      <File FileName="..\..\..\Perforce\Monsters1807\client\unity\Assets\Scripts\Oled\SlotOLEDBonusStateIO.cs" Line="176" Column="1" />
+      <File FileName="..\..\..\Perforce\Monsters1807\client\unity\Assets\GDK\wagergame_client\src\wagergame\buttonpanel\TextSettingsFormatter.cs" Line="69" Column="9" />
+      <File FileName="..\..\..\Perforce\Monsters1807\client\unity\Assets\Scripts\Oled\ThemeOLEDIOManager.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Perforce\Monsters1807\client\unity\Assets\Scripts\Oled\ThemeState.cs" Line="28" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
