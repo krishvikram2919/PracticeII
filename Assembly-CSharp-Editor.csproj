@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{7E812B64-0E97-9B3B-90C9-476FCA3DC59F}</ProjectGuid>
+	<ProjectGuid>{BC981D22-D484-D7B6-4FDD-F1B36A2EA73C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -49,6 +49,8 @@
      <Compile Include="Assets\PG\Editor\MapGeneratorEditor.cs" />
      <Compile Include="Assets\Scriptable object\Editor\YourClassAsset.cs" />
      <Compile Include="Assets\Small Pyramid Generation\Editor\PyramidGeneratorEditor.cs" />
+     <Compile Include="Assets\Time Inspector Window\Editor\TimeInspector.cs" />
+     <None Include="Assets\Voronoi\voronoi\VoronoiDiagram.shader" />
      <None Include="Assets\StreamingTextures\placeholder.txt" />
      <None Include="Assets\Shader\Trial.shader" />
  <Reference Include="UnityEngine.UI">
@@ -105,7 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{F02D800D-939D-AEA0-2DB7-2527196893A6}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{B86090DF-12D5-F04D-A369-AB980E93ECFF}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{F02D800D-939D-AEA0-2DB7-2527196893A6}</ProjectGuid>
+	<ProjectGuid>{B86090DF-12D5-F04D-A369-AB980E93ECFF}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\2D Raycast\Detect2DHit.cs" />
+     <Compile Include="Assets\Coroutines\Corou.cs" />
      <Compile Include="Assets\Mech.Trigger\AnimTestor.cs" />
      <Compile Include="Assets\PG\MapGenerator.cs" />
      <Compile Include="Assets\PG\MeshGenerator.cs" />
@@ -56,6 +57,10 @@
      <Compile Include="Assets\TrailCreater\AutoMove.cs" />
      <Compile Include="Assets\Trajectory\ProjectileOnclick.cs" />
      <Compile Include="Assets\TryTest.cs" />
+     <Compile Include="Assets\Voronoi\Player.cs" />
+     <Compile Include="Assets\Voronoi\VoronoiSettings.cs" />
+     <Compile Include="Assets\Voronoi\voronoi\VoronoiRandom.cs" />
+     <None Include="Assets\Voronoi\voronoi\VoronoiDiagram.shader" />
      <None Include="Assets\StreamingTextures\placeholder.txt" />
      <None Include="Assets\Shader\Trial.shader" />
  <Reference Include="UnityEngine.UI">
